@@ -74,6 +74,7 @@ assignment.countEvenNumbersWithin = countEvenNumbersWithin;
  * @param {Array} arrayOfNumbers the array containing temperatures in Celsius to be converted
  * @returns Array the converted temperatures in Fahrenheit
  */
+
 function celsiusToFahrenheit(arrayOfNumbers) {
     let result = [];
     result = arrayOfNumbers.map (element => Math.trunc (element * 1.8 + 32))
